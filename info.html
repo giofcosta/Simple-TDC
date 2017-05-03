@@ -1,0 +1,16 @@
+<form v-on:submit.prevent="add">
+    <table class="table">
+        <tr>
+            <td>
+                <h4>
+                    <i class="glyphicon glyphicon-user "></i> {{ fullname }}
+                </h4>
+            </td>
+            <td width="20%"><input id="firstname" class="form-control" type="text" v-model="firstname" placeholder="Nome" /></td>
+            <td width="20%"><input class="form-control" type="text" v-model="lastname" placeholder="Sobrenome" /></td>
+            <td width="100">
+                <button type="submit" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i>  New</button>
+            </td>
+        </tr>
+    </table>
+</form>
