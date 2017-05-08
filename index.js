@@ -1,6 +1,7 @@
 var defaultUsers = [
-    { firstname: "Giovanni", lastname: "Fernandes" },
-    { firstname: "Nome1", lastname: "Sobrenome1" }
+    { firstname: "Henrique", lastname: "Sosa" },
+    { firstname: "Ivan", lastname: "Henrique" },
+    { firstname: "Adriana", lastname: "Regina" }
 ];
 
 var vm = new Vue({
